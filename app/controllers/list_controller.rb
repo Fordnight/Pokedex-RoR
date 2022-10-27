@@ -31,6 +31,4 @@ class ListController < ApplicationController
   
       #render json: @result
     end
-  
-  
-  end
+end
