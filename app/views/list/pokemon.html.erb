@@ -1,7 +1,7 @@
 <h1>
-  <%= @result['forms'][0]['name'] %>
+  <%= @result.name  %>
 </h1>
-<img src= <%= @result['sprites']['versions']['generation-v']['black-white']['animated']['front_default'] %>>
+<img src= <%= @result.image %>>
 <table table style="width:100%" class = "table table-striped table-bordered">
   <thead>
     <tr>
@@ -9,13 +9,11 @@
     </tr>
   </thead>
   <tbody>
-    <% @result['abilities'].each do |ability| %>
       <tr>
         <td>
-          <%= ability['ability']['name'] %>
+          <%= @result.abilities %>
         </td>
       </tr>
-    <% end %>
   </tbody>
 </table>
 <table table style="width:100%" class = "table table-striped  table-bordered">
@@ -27,7 +25,7 @@
   <tbody>
       <tr>
         <td>
-          <%= @result['types'][0]['type']['name'] %>
+          <%= @result.pokemon_type %>
         </td>
       </tr>
   </tbody>

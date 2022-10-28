@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   get 'list', to: 'list#index'
   get 'list/pokemon/:name', to:'list#pokemon', as: 'list_pokemon'
+  get 'list/import', to: 'list#import'
 
 
   root "welcome#index"

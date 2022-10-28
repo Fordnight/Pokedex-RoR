@@ -133,6 +133,8 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.9-x64-mingw32)
       racc (~> 1.4)
+    nokogiri (1.13.9-x86_64-linux)
+      racc (~> 1.4)
     public_suffix (5.0.0)
     puma (5.6.5)
       nio4r (~> 2.0)
@@ -170,6 +172,11 @@ GEM
     regexp_parser (2.6.0)
     reline (0.3.1)
       io-console (~> 0.5)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     rest-client (2.1.0-x64-mingw32)
       ffi (~> 1.9)
       http-accept (>= 1.7.0, < 2.0)
@@ -191,6 +198,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.5.3-x64-mingw32)
+    sqlite3 (1.5.3-x86_64-linux)
     stimulus-rails (1.1.0)
       railties (>= 6.0.0)
     thor (1.2.1)
@@ -205,6 +213,7 @@ GEM
       tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
+    unf_ext (0.0.8.2)
     unf_ext (0.0.8.2-x64-mingw32)
     web-console (4.2.0)
       actionview (>= 6.0.0)
@@ -225,6 +234,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
