@@ -3,13 +3,12 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  
+
   get 'welcome', to: 'welcome#index'
 
   get 'list', to: 'list#index'
-  get 'list/pokemon/:name', to:'list#pokemon', as: 'list_pokemon'
+  get 'list/pokemon/:name', to: 'list#pokemon', as: 'list_pokemon'
   get 'list/import', to: 'list#import'
 
-
-  root "welcome#index"
+  root 'welcome#index'
 end

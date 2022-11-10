@@ -1,3 +1,3 @@
 class Pokemon < ApplicationRecord
-    self.table_name = "pokemondb"
+  self.table_name = 'pokemondb'
 end
